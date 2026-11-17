@@ -43,7 +43,7 @@ button {
     background-color: rgb(183, 188, 188);
     display: flex;
     justify-content: center;
-    text-align: center;
+    align-items: center;
 }
 .cell:hover {
     background-color: rgb(167, 167, 167);
@@ -59,8 +59,10 @@ div div p {
     width: auto;
 }
 .x_color {
-    color: orange;
+    color: rgb(6, 126, 32);
+    font-size: 55px;
 }
-.y_color {
+.o_color {
     color: blue;
+    font-size: 55px;
 }
